@@ -35,4 +35,10 @@ public class Shelf {
         else
             return products.get(index);
     }
+
+
+    public void showList(){
+       for (int i = 0;i < products.size(); i++){
+           System.out.println(i + " -> " +products.get(i));       }
+    }
 }
