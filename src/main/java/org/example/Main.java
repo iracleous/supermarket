@@ -7,8 +7,8 @@ public class Main {
 
 
         JFrame frame = new JFrame("Codeme.Up");
-
-     SuperMarket supermarket= new SuperMarket();
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        SuperMarket supermarket= new SuperMarket();
         frame.add(supermarket.getPanel1());
         frame.setSize(500,500);
         frame.setVisible(true);
